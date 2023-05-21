@@ -50,6 +50,6 @@ In the next step I followed the icmp protocol. In order to get a response betwee
 <img src="https://i.imgur.com/KllXwX6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Here in the last example I followed the dns protocol. I monitored traffic from my ip address to google.com 
+Here in the last example I followed the dns protocol. I monitored traffic from my ip address to google.com and observed the information that was sent back.
 </p>
 <br />
