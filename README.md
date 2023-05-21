@@ -6,9 +6,7 @@
 In this tutorial, we observe various network traffic to and from Azure Virtual Machines with Wireshark as well as experiment with Network Security Groups. <br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: Azure Virtual Machines, Wireshark, and Network Security Groups](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -26,9 +24,9 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Install Wireshark 
-- Filter icmp and communicate between 2 ip addresses
+- Filter icmp and connect between 2 ip addresses
 - DNS Lookup
-- 
+
 
 <h2>Actions and Observations</h2>
 
@@ -36,7 +34,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/xVV0WLr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In this image you can see that I have downloaded wireshark which is now going to allow me moniotr traffic on my VM.
+In this image you can see that I have downloaded wireshark which is now going to allow me to monitor and inspect live traffic on my virtual machine.
 </p>
 <br /
 
@@ -44,7 +42,7 @@ In this image you can see that I have downloaded wireshark which is now going to
 <img src="https://i.imgur.com/CRLwDQG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In the next step I followed the icmp protocol and made contact with another VM with a different ip address.
+In the next step I followed the icmp protocol. In order to get a response between the 2 virtual machines I first had to find the private ip address for VM2. Then I pinged the ip address and waited for a reply.
 </p>
 <br />
 
@@ -52,6 +50,6 @@ In the next step I followed the icmp protocol and made contact with another VM w
 <img src="https://i.imgur.com/KllXwX6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In the last example I followed the dns protocol. I monitored traffic from my ip address to google.com 
+Here in the last example I followed the dns protocol. I monitored traffic from my ip address to google.com 
 </p>
 <br />
