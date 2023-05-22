@@ -42,7 +42,7 @@ In this image you can see that I have downloaded wireshark which is now going to
 <img src="https://i.imgur.com/CRLwDQG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In the next step I followed the icmp protocol. In order to get a response between the 2 virtual machines I first had to find the private ip address for VM2. Then I pinged the ip address and waited for a reply.
+In the next step I followed the icmp protocol. In order to get a response between the 2 virtual machines I first had to find the private ip address for VM2. After that I pinged the ip address and waited for a reply.
 </p>
 <br />
 
@@ -50,6 +50,6 @@ In the next step I followed the icmp protocol. In order to get a response betwee
 <img src="https://i.imgur.com/KllXwX6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Here in the last example I followed the dns protocol. I monitored traffic from my ip address to google.com and observed the information that was sent back.
+Here in the last screenshot I followed the dns protocol. I monitored traffic from my ip address to google.com and observed the information that was sent back.
 </p>
 <br />
